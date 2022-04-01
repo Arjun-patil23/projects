@@ -1,0 +1,30 @@
+/* 
+    font-family: 'Anton', sans-serif;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Caveat', cn bursive;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Spartan', sans-serif;
+    font-family: 'Teko', sans-serif;
+
+
+    font-family: 'Cormorant Unicase', serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+*/
+
+
+.btn-1{
+    padding: 0.9rem 1.7rem;
+    border-radius: 50px;
+    border: 1px solid rgb(4, 49, 250);
+    color: rgb(9, 9, 10);
+}
+
+.btn-1:hover{
+    background-color: black;
+    color: cornsilk;
+    border: none;
+    transition: 1s;
+}

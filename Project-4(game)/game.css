@@ -1,0 +1,776 @@
+body{
+    display: block;
+    height: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 0; 
+
+    
+
+}
+
+
+
+.header{
+    background: url(./img/bg2.jpg);
+    height: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+    
+
+
+}
+
+header nav .header-1 {
+    flex-direction: row;
+    display: flex;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 15px;    
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 300;
+    
+}
+
+header nav .header-1 a{
+    margin-right: 6rem;
+    height: 52px;
+
+}
+
+header nav .header-1 a img{
+    border: none;
+    /* border-radius: 100%; */
+    height: 100px;
+    margin-top: 0.3rem;
+    margin-left: 7rem;
+}
+
+header nav .header-1 h2{
+    margin-right: 3rem;
+    font-weight: 100;
+    justify-content: center;
+    font-size: 16px;
+    padding-bottom: 10px;
+    transition: 1s ease-in-out;
+
+}
+
+header nav .header-1 .nav h2:hover{
+    border-bottom: 1px solid rgb(240, 54, 54);
+
+}
+
+.nav{
+    margin-top: -0.5rem;
+    margin-left: 13rem;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+
+}
+
+
+header nav .header-1 input{
+    border: none;
+    border-radius: 100px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    margin-left: 9rem;
+    background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+
+}
+
+header nav .header-1 input:hover{
+
+    background-color: rgba(255, 255, 255, 0.165); /* Black w/opacity/see-through */
+    transition: 1s ease-in-out;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+
+.cod {
+    color: rgba(22, 22, 22, 0.945);
+    margin-left: 51rem;
+    margin-top: 11rem;
+    
+}
+
+.cod h1{
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    margin-left: 3rem;
+}
+
+.cod h1 .s1{
+    font-size: 15px;
+    margin-bottom: 2rem;
+    
+}
+
+.cod h1 .s2{
+    margin-top: 2.5rem;
+    font-family: 'Anton', sans-serif;
+    margin-left: -9rem;
+    
+}
+
+
+.cod p{
+    margin-top: -1rem;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    margin-left: -1.5rem;
+
+    
+}
+
+.cod button{
+    margin-left: 4rem;
+    margin-top: -1rem;
+    background-color: transparent;
+}
+
+
+header .head-last .h-left{
+    margin-top: 10rem;
+}
+
+header .head-last .h-left img{
+    margin-left: 15rem;
+    margin-bottom: 2rem;
+
+    
+}
+
+
+header .head-last .h-left .h-h3{
+    margin-left: 29rem;
+    margin-top: -4rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Spartan', sans-serif;
+    font-weight: 100;
+
+}
+
+header .head-last .h-left img:hover{
+    border-right: 2px solid blue;
+    transition: 0.7s;
+}
+.img1{
+    margin-bottom: 1rem;
+
+}
+
+#img2 { 
+    margin-bottom: 1rem;
+    width: 350px;
+    height: 5rem;
+}
+
+#img2 .h3-h3{
+    font-size: 100px;
+}
+
+#img3{
+    width: 350px;
+    height:5rem;
+    margin-top: 1rem;
+}
+
+#h-h3{
+    margin-left: 25rem;
+    color: rgb(255, 255, 255);
+
+}
+
+#h-h3-2{
+    margin-left: 26rem;
+}
+
+
+
+.header header .head-last .h-right{
+    margin-left: 40rem;
+    margin-top: -16.5rem;
+    
+}
+
+
+/* action games */
+
+.action-games{
+    background-image: url(./img/bg6.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+
+}
+
+
+
+.action-games .action .a-header h1{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    margin-right: 60.3rem;
+    margin-left: 10rem;
+    border-right: 2px solid rgb(202, 16, 10);
+    margin-bottom: 3rem;
+    text-align: center; 
+    
+}
+
+.action-games .action .a-header h1:hover{
+    border-right: 2px solid blue;
+    /* color: black; */
+}
+
+.action-games .action .a-card .card1 .cardtext{
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    color: red;
+    background-color: rgba(37, 31, 72, 0.707);
+    font-weight: 300;
+    padding-bottom: 1rem;
+    padding-top: 1.1rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;  
+}
+
+.action-games .action .a-card .card1 .cardtext:hover{
+    opacity: 1;
+    border: 1px solid black;
+}
+.a-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: -1rem;
+    margin: 1rem 10rem;
+}
+
+.c1{
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+
+}
+
+.c2{
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    color: white;
+    
+}
+
+.c3{
+    color: gold;    
+    font-family: 'Caveat', cursive;
+}
+
+
+.card1 img{
+    /* position: relative; */
+    height: 250px;
+}
+
+.cardtext img{
+    height: 15px;
+}
+
+
+.card1 .a1{
+    /* height: 207px; */
+    width: 166px;
+}
+
+
+
+.g-btn{
+    font-family: 'Anton', sans-serif;
+    padding: 0.3rem 1rem;
+    margin-top: 1rem;
+    border-radius: 50px;
+    font-size: 13px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255,);
+}
+
+.g-btn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);   
+}
+
+
+/* advanture */
+.mix-name{
+    
+    margin: 0 -1rem;
+}
+
+
+.mix1 .ad-1{
+    /* border: 1px solid rgb(243, 231, 231); */
+    color: rgb(225, 237, 237);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1)) ,url(./img/advanture/bg3.jpg);
+    margin-left: 9.5rem;
+    height: 300px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5rem;
+    display: flex;
+    padding-bottom: -0rem;
+    padding-right: 7rem;
+    
+    
+
+}
+
+.advanture .ad-1-1{
+    height: 30px;
+    margin-left: 200rem;
+    margin-top: -3rem;
+}
+
+.checked {
+    color: orange;
+    /* margi+n-left: ; */
+
+  }
+
+  .star{
+      display: flex;
+      margin-left: 22rem;
+}
+
+.arjun img{
+    height: 340px;
+    display: flex;
+    /* padding-top: -20rem; */
+    margin-top: -3.5rem;
+    margin-left: 1rem;
+}
+
+.ad-1-1-1{ 
+    margin-top: -16rem;
+    margin-left: 15rem;
+}
+
+.ad-name{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+}
+   
+.ad-name1{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 200;
+    margin-top: -1rem;
+
+}
+
+.ad-light{
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: 200;
+    font-size: 13px;
+    color: rgb(206, 206, 185);
+
+}
+
+.ad-light span{
+    margin-left: 4.7rem;
+}
+
+.ad-1-1-1 .btn-ad-2 button{
+    border: none;
+    background-color: rgba(112, 166, 247, 0.178);
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: underline;
+    color: white;
+    
+
+}
+
+.g1-btn{
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    margin-top: 1rem;
+}
+
+.ave-btn{
+    display: flex;
+    margin-top: -10rem;
+    margin-left: 21rem;
+}
+
+.g1-btn:hover{
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.ad-card3 img{
+    height: 25px;
+}
+
+.ad-card5{
+    height: 300px;
+}
+
+.adtext{
+    position: absolute;
+    color: white;
+    background-color: rgba(37, 31, 72, 0.707);
+    opacity: 0;
+    width: 208px;
+    height: 18.8rem;
+    text-align: center;
+
+}
+
+.adtext:hover{
+    opacity: 1;
+    border: 1px solid black;
+    transition: 0.5s ease-in-out;
+
+
+}
+
+.ad-card1{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.ad-card2{
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 15px;
+    margin-top: 2rem;
+
+}
+
+.ad-card2 .ad-sp1{
+    font-family: 'Spartan', sans-serif;
+
+}
+
+.ad-card2 .ad-sp2{
+    color: gold;
+}
+
+
+.ad-card3{
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.ad-card3 img{ 
+    height: 15px;
+}
+
+.ad-card{
+    margin-top: -19.4rem;
+    margin-left: 57rem;
+}
+
+.btn-cls{
+    margin-top: -2rem;
+}
+
+
+/* last*/
+
+#last-games{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+    background-image: url(./img/mix/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.l-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* grid-gap: rem; */
+    margin:  0 9rem;
+    padding-top: 2rem;
+}
+
+.last-text{
+    color: aliceblue;
+    position: absolute;
+    font-size: 13px;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    background-color: rgba(32, 31, 34, 0.679);
+    height: 260px;
+    width: 160px;
+    
+}
+
+.last-text:hover{
+    opacity: 1;
+    border: 1px solid black;
+    transition: 0.6s ease-in-out;
+    
+}
+
+.last-text img{
+    height: 15px;
+}
+
+.last-img img{
+    height: 260px;
+    width: 160px;
+    
+}
+
+
+
+.l-header h1{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    margin-right: 55rem;
+    margin-left: 9rem;
+    border-right: 2px solid rgb(202, 16, 10);
+    margin-bottom: 3rem;
+    /* text-align: center;  */
+    
+    
+    
+}
+
+.l-header h1:hover{
+    border-right: 2px solid blue;
+    /* color: black; */
+}
+
+.l1{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    
+    
+}
+
+.l2{
+    font-family: 'Cormorant Unicase', serif;
+    
+    font-size: 14px;
+    color: white;
+    
+}
+
+.l3{
+    margin-top: 3rem;
+    color: gold;    
+    font-family: 'Caveat', cursive;
+}
+
+
+
+
+/* border-bottom: 7px solid red; */
+
+
+
+/* footer */
+
+/* icons */
+
+#footer-icon a img{
+    height: 43px;
+}
+
+/* frist-footer */
+
+
+footer{
+    display: flex;
+    color: aliceblue;
+    margin-top: 1rem;
+    /* border-top: 2px solid red; */
+    /* border-bottom: 2px solid red; */
+    margin-bottom: 1rem;
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)) ,url(./img/4k2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+}
+
+
+
+#footer-content .f1{
+    margin-left: 6rem;
+    
+
+}
+
+#footer-content .f1 h1{
+    color: white;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 16px;
+    color: rgb(250, 245, 245);
+    border-bottom: 1px solid red;
+    padding: 1rem;
+    margin-right: 80rem;
+}
+
+#footer-content .f1 #menu-sub{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 35rem;
+}
+
+#footer-content .f1 #menu-sub a h3:hover{
+    color: red;
+    transition: 0.6s ease-in-out;
+}
+
+
+#footer-content .f1 .footer-side a h3:hover{
+    color: red;
+    transition: 0.6s ease-in-out;
+}
+
+
+
+#footer-content .f1 #menu-sub a{
+    text-decoration: none;
+    color: white; 
+    margin-left: -35rem; 
+    margin-bottom: -1rem; 
+    
+}
+
+#footer-content .f1 .footer-side {
+    margin-left: -35rem; 
+    margin-top: 1rem;
+}
+
+#footer-content .f1 .footer-side a h3{
+    margin-top: -1rem;
+     
+
+}
+
+
+.f2{
+    margin-left: 22rem;
+    margin-top: -10rem;
+}
+
+.f2 h1{
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 16px;
+    border-bottom: 1px solid red;
+    margin-right: 50rem;
+    padding-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.f2 p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    
+}
+
+.f3{
+    margin-left: 50rem;
+    margin-top: -7.6rem;
+}
+
+.f3 h1{
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 16px;
+    border-bottom: 1px solid red;
+    margin-right: 33rem;
+    padding-bottom: 1rem;
+    /* margin-bottom: 0.2rem; */
+}
+
+.f4{
+    margin-left: 61rem;
+    margin-top: -8rem;
+}
+
+
+
+.f4 h1{
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 16px;
+    border-bottom: 1px solid red;
+    margin-right: 18rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+#footer-contect h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+
+}
+
+#footer-contect .p1{
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -1rem;
+    font-size: 12px;
+
+}
+
+#footer-contect .p2{
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 1rem;
+    font-size: 12px;
+}
+
+
+#footer-contect h3 span{
+    color: rgba(20, 191, 243, 0.925);
+}
+
+.copy p{
+    color: rgb(80, 78, 78);
+    text-align: center;
+    margin-left: -12rem;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
