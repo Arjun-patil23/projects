@@ -1,0 +1,51 @@
+.btn{
+    border: none;
+    background-color: lightblue;
+    padding: 10px 30px;
+    font-family: 'Neuch', cursive;
+    /* border-radius: 15px; */
+}
+
+.btn:hover{
+    color: blue;
+    background-color: var(--lemon);
+}
+
+.work2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    column-gap: 1rem; 
+    row-gap: 1rem;  
+    
+}
+.card23{
+    display: flex;
+    margin-left: 15rem;
+    position: relative;
+}
+.card24{
+    display: flex;
+    position: relative;
+
+    /* justify-content: center; */  
+}
+.card25{
+    display: flex;
+    position: relative;
+
+    margin-right: 15rem;   
+}
+.card251{
+    position: relative;
+
+    display: flex;
+    margin-left: 15rem;  
+}
+.card241{
+    display: flex;
+    position: relative;
+
+    /* justify-content: center; */
+    
+}
